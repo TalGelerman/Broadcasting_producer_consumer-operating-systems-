@@ -1,8 +1,6 @@
 The overall scenario that is simulated is that of news broadcasting. Different types of stories are produced and the system sorts them and displays them to the public.
 The ‘new stories’ are simulated by simple strings which are displayed to the screen in the order they arrive.
 
-![image](https://github.com/TalGelerman/Operating_systems/assets/106587324/ae719e9a-8ad9-4c9f-bbef-2c18c4209bae)
-
 There are 4 types of active actors:
 - Producer 
     Each producer creates a number of strings in the following format:
@@ -18,5 +16,9 @@ Each of the producers passes its information to the Dispatcher (introduced below
 
 - Screen-manager
   The Screen-manager displays the strings it receives via the Co-Editors  queue to the screen (std-output). After printing all messages to the screen and receiving three "DONE" messages, the Screen manager displays a ‘DONE’ statement.
+
+
+![image](https://github.com/TalGelerman/Operating_systems/assets/106587324/ae719e9a-8ad9-4c9f-bbef-2c18c4209bae)
+
 
       
